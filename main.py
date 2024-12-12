@@ -9,6 +9,7 @@ def main():
     for char in sorted_characters:
         if char["char"].isalpha():
             print(f"{char["char"]} is used {char["num"]} times.")
+    print("--- End of report ---")
 
 
 def get_book_text(book_path):
